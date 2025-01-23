@@ -60,8 +60,8 @@
       "description": "A modern portfolio website with admin dashboard.",
       "image": "/images/weather-app.png",
       "technologies": ["React", "TypeScript", "Tailwind"],
-      "githubLink": "https://aakibansari.github.io/weatherapp/",
-      "liveLink": "https://example.com"
+      "githubLink": "https://github.com/AakibAnsari/weatherapp",
+      "liveLink": "https://aakibansari.github.io/weatherapp/"
     }
   ]
 }
