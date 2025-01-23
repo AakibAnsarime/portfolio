@@ -1,0 +1,25 @@
+{
+  "name": "Aakib Ansari",
+  "description": "Dynamic web developer and digital marketer with expertise in modern web technologies, SEO, and social media advertising.",
+  "email": "aakiba6619@gmail.com",
+  "profileImage": "/images/profile.jpg",
+  "cvFile": "/cv/cv.pdf",
+  "skills": [
+    "React",
+    "Node.js",
+    "JavaScript",
+    "SEO"
+  ],
+  "badges": [
+    {
+      "title": "Digital Marketing",
+      "subtitle": "Social Media Expert",
+      "icon": "Globe2"
+    },
+    {
+      "title": "Web Development",
+      "subtitle": "Modern Technologies",
+      "icon": "Code2"
+    }
+  ]
+}
