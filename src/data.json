@@ -56,12 +56,12 @@
       "liveLink": "https://aakibansari.github.io/Text-Utils/"
     },
     {
-      "title": "Weather App",
-      "description": "A modern portfolio website with admin dashboard.",
-      "image": "/images/weather-app.png",
+      "title": "Health & Fitness Blog",
+      "description": "A modern pblog website with dynamic content",
+      "image": "/images/health-plan-blog.png",
       "technologies": ["React", "TypeScript", "Tailwind"],
-      "githubLink": "https://github.com/AakibAnsari/weatherapp",
-      "liveLink": "https://aakibansari.github.io/weatherapp/"
+      "githubLink": "https://github.com/AakibAnsarime/healthplan-blog",
+      "liveLink": "https://healthplan-blog.vercel.app/"
     }
   ]
 }
