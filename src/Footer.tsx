@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Footer = () => {
   const handleScroll = (id: string) => {
     const element = document.getElementById(id);

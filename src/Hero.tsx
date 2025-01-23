@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { Globe2, Code2 } from 'lucide-react';
 import data from './data.json';
