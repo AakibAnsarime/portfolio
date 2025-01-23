@@ -25,9 +25,8 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8 sm:mb-12">
               <a
-                href="#contact"
                 onClick={handleContactClick}
-                className="inline-flex items-center px-6 py-3 bg-[#f97316] text-white font-medium rounded-md hover:bg-[#ea580c] transition-transform duration-300 transform hover:scale-105 text-sm sm:text-base"
+                className="inline-flex items-center px-6 py-3 bg-[#f97316] text-white font-medium rounded-md hover:bg-[#ea580c] transition-transform duration-300 transform hover:scale-105 text-sm sm:text-base cursor-pointer"
               >
                 Hire Me
               </a>
