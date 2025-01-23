@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Globe2, Code2 } from 'lucide-react';
 import data from './data.json';
 
@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Column - Text Content */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
-            <h1 className="text-gray-900 text-3xl sm:text-4xl font-bold mb-4 leading-tight">
+            <h1 className="text-[#1e1b4b] text-3xl sm:text-4xl font-bold mb-4 leading-tight">
               <span className="block mb-2">Hy! I Am</span>
               <span className="text-[#f97316]">{heroData.name}</span>
             </h1>
@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
 
             <div className="mt-8 sm:mt-12">
-              <h3 className="text-lg sm:text-xl font-semibold mb-4">
+              <h3 className="text-lg sm:text-xl font-semibold text-[#1e1b4b] mb-4">
                 Technical Expertise & Skills
               </h3>
               <div className="flex flex-wrap justify-center lg:justify-start gap-2 sm:gap-3">
@@ -70,7 +70,7 @@ const Hero = () => {
                     {badge.icon === 'Globe2' ? <Globe2 /> : <Code2 />}
                   </div>
                   <div>
-                    <div className="font-medium text-gray-900 text-sm sm:text-base">
+                    <div className="font-medium text-[#1e1b4b] text-sm sm:text-base">
                       {badge.title}
                     </div>
                     <div className="text-xs sm:text-sm text-[#4b5563]">
