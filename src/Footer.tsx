@@ -1,7 +1,5 @@
-import React from 'react';
-
 const Footer = () => {
-  const handleScroll = (id) => {
+  const handleScroll = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -32,8 +30,8 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#services"
-                onClick={() => handleScroll('services')}
+                href="#myservices"
+                onClick={() => handleScroll('myservices')}
                 className="text-gray-700 hover:text-gray-900"
               >
                 Services

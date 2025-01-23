@@ -31,7 +31,7 @@ const Header = () => {
   const menuItems = [
     { label: 'Home', id: 'home' },
     { label: 'Projects', id: 'projects' },
-    { label: 'Services', id: 'services' }
+    { label: 'Services', id: 'myservices' }
   ];
 
   return (

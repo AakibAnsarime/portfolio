@@ -1,9 +1,8 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Hero from './Hero';
 import Projects from './Projects';
-import Services from './Services';
+import MyServices from './MyServices';
 import Footer from './Footer';
 
 function MainLayout() {
@@ -11,7 +10,7 @@ function MainLayout() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
-      <Services />
+      <MyServices />
       <Projects />
       <Footer />
     </div>

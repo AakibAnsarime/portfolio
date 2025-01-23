@@ -3,7 +3,7 @@ import { Globe2, Code2 } from 'lucide-react';
 import data from './data.json';
 
 const Hero = () => {
-  const [heroData, setHeroData] = useState(data.hero);
+  const [heroData] = useState(data.hero);
 
   const handleContactClick = () => {
     window.location.href = `mailto:${heroData.email}`;
