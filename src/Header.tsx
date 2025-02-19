@@ -1,6 +1,12 @@
-import React from 'react';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+const menuItems = [
+  { label: 'Home', id: 'home', path: '/' },
+  { label: 'Services', id: 'services', path: '/' },
+  { label: 'Projects', id: 'projects', path: '/projects' }
+];
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,45 +23,40 @@ const Header = () => {
     };
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
+  const scrollToSection = (sectionId: string, path: string) => {
+    if (path === '/') {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+        setIsMenuOpen(false);
+      }
     }
   };
-
-  const handleContactClick = () => {
-    window.location.href = 'mailto:aakiba6619@gmail.com';
-  };
-
-  const menuItems = [
-    { label: 'Home', id: 'home' },
-    { label: 'Services', id: 'services' },
-    { label: 'Projects', id: 'projects' }
-    
-  ];
 
   return (
     <nav className={`sticky top-0 left-0 right-0 z-50 px-6 md:px-20 pt-4 transition-colors duration-300 ${isScrolled ? 'bg-transparent' : 'bg-[#fff7f7]'}`}>
       <div className="flex justify-between items-center bg-white rounded-xl shadow-lg py-4 px-6">
-        <div className="text-xl font-bold text-gray-900">Md Aakib Ansari</div>
+        <Link to="/" className="flex items-center space-x-2 text-xl font-bold text-gray-900 hover:text-orange-500 transition-colors duration-200">
+          <img src="/portfolio.svg" alt="Portfolio Logo" className="w-8 h-8" />
+          <span>Md Aakib Ansari</span>
+        </Link>
         <div className="hidden md:flex items-center space-x-8">
           {menuItems.map((item) => (
-            <button
+            <Link
               key={item.id}
-              onClick={() => scrollToSection(item.id)}
+              to={item.path}
+              onClick={() => scrollToSection(item.id, item.path)}
               className="hover:text-orange-500 transition-colors duration-200"
             >
               {item.label}
-            </button>
+            </Link>
           ))}
-          <button 
-            onClick={handleContactClick}
+          <a 
+            href="mailto:aakiba6619@gmail.com"
             className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-all duration-200"
           >
             Contact Us
-          </button>
+          </a>
         </div>
         <button 
           className="md:hidden"
@@ -74,20 +75,21 @@ const Header = () => {
         <div className="md:hidden mt-2">
           <div className="bg-white rounded-xl shadow-lg py-4 px-6 flex flex-col space-y-4">
             {menuItems.map((item) => (
-              <button
+              <Link
                 key={item.id}
-                onClick={() => scrollToSection(item.id)}
+                to={item.path}
+                onClick={() => scrollToSection(item.id, item.path)}
                 className="hover:text-orange-500 transition-colors duration-200 text-left"
               >
                 {item.label}
-              </button>
+              </Link>
             ))}
-            <button 
-              onClick={handleContactClick}
-              className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-all duration-200 w-full"
+            <a 
+              href="mailto:aakiba6619@gmail.com"
+              className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-all duration-200 w-full text-center"
             >
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
       )}

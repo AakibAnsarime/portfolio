@@ -3,7 +3,7 @@
     "name": "Aakib Ansari",
     "description": "Dynamic web developer and digital marketer with expertise in modern web technologies, SEO, and social media advertising.",
     "email": "aakiba6619@gmail.com",
-    "profileImage": "/images/profile.png",
+    "profileImage": "/images/profile.jpg",
     "skills": ["React", "Node.js", "JavaScript", "SEO"],
     "badges": [
       {
@@ -40,28 +40,40 @@
   },
   "projects": [
     {
-      "title": "E-Commerce Platform",
-      "description": "A full-featured online shopping platform with cart and payment integration.",
-      "image": "/images/ecommerce-store.png",
-      "technologies": ["React", "Node.js", "MongoDB"],
-      "githubLink": "https://github.com/AakibAnsari/E-Commerce",
-      "liveLink": "https://e-commerce-jade-nu.vercel.app/"
+      "title": "Attar Shopping Website",
+      "description": "A full-featured online shopping platform with cart and whatsapp integration.",
+      "image": "/images/2.jpg",
+      "technologies": ["Vite", "Node.js", "MongoDB"],
+      "githubLink": "https://github.com/AakibAnsarime/aatarshop",
+      "liveLink": "https://aatarshop.vercel.app/",
+      "category": "E-commerce"
     },
     {
-      "title": "Text Utility App",
-      "description": "A collaborative task management tool with real-time updates.",
-      "image": "/images/text-utils.png",
-      "technologies": ["Vue.js", "Firebase", "Tailwind"],
-      "githubLink": "https://github.com/AakibAnsari/Text-Utils",
-      "liveLink": "https://aakibansari.github.io/Text-Utils/"
+      "title": "Portfolio Website",
+      "description": "A sleek and responsive personal portfolio to showcase skills, projects, and achievements.",
+      "image": "/images/4.jpg",
+      "technologies": ["Vite", "TypeScript", "Tailwind"],
+      "githubLink": "https://github.com/AakibAnsarime/portfolio",
+      "liveLink": "https://portfolio-aakibansaris-projects-da5e2e8a.vercel.app/",
+      "category": "Personal"
     },
     {
-      "title": "Health & Fitness Blog",
-      "description": "A modern pblog website with dynamic content",
-      "image": "/images/health-plan-blog.png",
-      "technologies": ["React", "TypeScript", "Tailwind"],
+      "title": "My HealthPlan Blog",
+      "description": "A health and fitness blog providing expert tips and workouts guides for a healthier lifestyle.",
+      "image": "/images/3.jpg",
+      "technologies": ["Vite", "TypeScript", "Tailwind"],
       "githubLink": "https://github.com/AakibAnsarime/healthplan-blog",
-      "liveLink": "https://healthplan-blog.vercel.app/"
+      "liveLink": "https://healthplan-blog.vercel.app/",
+      "category": "Blog"
+    },
+    {
+      "title": "Mobile Store Website",
+      "description": "An online store for mobile phones with product listings, cart, and order integration.",
+      "image": "/images/5.jpg",
+      "technologies": ["Vite", "TypeScript", "Tailwind"],
+      "githubLink": "https://github.com/AakibAnsarime/phonestoreapp",
+      "liveLink": "https://phonestoreapp.vercel.app/",
+      "category": "E-commerce"
     }
   ]
 }
