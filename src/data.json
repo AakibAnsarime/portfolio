@@ -40,6 +40,42 @@
   },
   "projects": [
     {
+      "title": "Job Hub Website",
+      "description": "A job listing and career-focused platform where users can browse jobs, apply, and read career-related blogs.",
+      "image": "/images/10.png",
+      "technologies": ["Nextjs", "TypeScript", "Tailwind"],
+      "githubLink": "https://github.com/AakibAnsarime/jobhub",
+      "liveLink": "https://jobhub-bice.vercel.app/",
+      "category": "Career"
+    },
+    {
+      "title": "Allaffan Ecommerce Website",
+      "description": "A next-gen ecommerce site with a modern design, featuring electronics and mobile gadgets for seamless online shopping.",
+      "image": "/images/6.png",
+      "technologies": ["Nextjs", "TypeScript", "Tailwind"],
+      "githubLink": "https://github.com/AakibAnsarime/alaffan_next",
+      "liveLink": "https://alaffan-next.vercel.app/",
+      "category": "E-commerce"
+    },
+    {
+      "title": "Ansarigen Image Generator",
+      "description": "An AI image generator web app that allows users to create custom images based on text prompts using modern AI APIs.",
+      "image": "/images/7.png",
+      "technologies": ["Nextjs", "TypeScript", "Tailwind"],
+      "githubLink": "https://github.com/AakibAnsarime/Ansarigen",
+      "liveLink": "https://ansarigen.vercel.app/",
+      "category": "AI Tool"
+    },
+    {
+      "title": "Order Management",
+      "description": "A cross-platform mobile app for managing product orders, built with Expo and React Native. It allows users to track, update, and manage orders in real-time with a clean and responsive UI.",
+      "image": "/images/11.png",
+      "technologies": ["Expo", "React Native", "TypeScript"],
+      "githubLink": "https://github.com/AakibAnsarime/product-management",
+      "liveLink": "https://github.com/AakibAnsarime/product-management/releases/download/v1.0.4/AalOrder.zip",
+      "category": "App"
+    },
+    {
       "title": "Attar Shopping Website",
       "description": "A full-featured online shopping platform with cart and whatsapp integration.",
       "image": "/images/2.jpg",
@@ -73,6 +109,24 @@
       "technologies": ["Vite", "TypeScript", "Tailwind"],
       "githubLink": "https://github.com/AakibAnsarime/phonestoreapp",
       "liveLink": "https://phonestoreapp.vercel.app/",
+      "category": "E-commerce"
+    },
+    {
+      "title": "Dream State Website",
+      "description": "A modern real estate platform for browsing and listing properties with detailed views, filtering options, and responsive design.",
+      "image": "/images/9.png",
+      "technologies": ["Vite", "TypeScript", "Tailwind"],
+      "githubLink": "https://github.com/AakibAnsarime/dreamstate",
+      "liveLink": "https://dreamstate-neon.vercel.app/",
+      "category": "Real Estate"
+    },
+    {
+      "title": "Alison Mobile Ecommerce Website",
+      "description": "A fully responsive ecommerce store for mobile phones with dynamic product listings and a smooth checkout experience.",
+      "image": "/images/8.png",
+      "technologies": ["Vite", "TypeScript", "Tailwind"],
+      "githubLink": "https://github.com/AakibAnsarime/phonestoreapp",
+      "liveLink": "https://alison-mobile.vercel.app/",
       "category": "E-commerce"
     }
   ]
